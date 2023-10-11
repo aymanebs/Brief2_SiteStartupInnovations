@@ -1,0 +1,47 @@
+
+/* font-family: 'Outfit', sans-serif; */
+.main-title{
+    color: #02073E;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin:155px 360px 20px 360px;
+    
+}
+.form-input{
+    width: 500px;
+    height: 60px;
+    border-width: 1px;
+    border-radius: 10px;
+    background: #D9D9D9;
+    display: block;
+    margin:auto;
+    outline: none;
+    
+}
+.form-input.textarea{
+    height:225px;
+    resize: none;
+}
+.submit-button{
+    width: 165px;
+    height: 58px;
+    display:block;
+    margin:auto;
+    border-radius: 10px;
+    background: #0A8080;
+    border-width: 1px;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 46px;
+
+
+}
