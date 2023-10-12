@@ -8,9 +8,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin:155px 360px 20px 360px;
+    margin:90px 360px 60px 360px;
     
 }
+/*-------form----------------------------------------------------------------------------------------------------------------------------*/
 .form-input{
     width: 500px;
     height: 60px;
@@ -20,11 +21,13 @@
     display: block;
     margin:auto;
     outline: none;
+    padding-left:15px;
     
 }
 .form-input.textarea{
     height:225px;
     resize: none;
+    padding-left:15px;
 }
 .submit-button{
     width: 165px;
@@ -44,23 +47,15 @@
     margin-top: 46px;
 
 }
-.image-droite{
-    position:absolute;
-    right: 50px;
-   /* top: 40px; */
-    width: 100px;
-    
-}
 
+/* navigation bar -------------------------------------------------------------------- */
 nav{
     display:flex;
-    list-style: none;
     justify-content: space-around;
-    align-items: center;
-
-   
-
-    
+    align-items: center;   
+}
+li{
+    list-style: none;
 }
 .logo,
 .nav-list,
@@ -90,7 +85,7 @@ nav{
 }
 .login{
     display:flex;
-    list-style: none;
+   
     gap:10px;
 }
 a{
@@ -103,4 +98,44 @@ a{
 #getstarted{
     color:#0A8080;
     font-weight:500;
+}
+/*-----------------------------------------------------------------------------------------------*/
+/*.container{
+    display: flex;
+    gap: 700px;
+
+} */
+.image-droite{
+   /* position:absolute; */
+   display:flex; 
+ 
+   /* top: 40px; */
+   /* width: 100px; */
+    
+}
+
+
+.nav-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.footer1,
+.footer2,
+.footer3,
+.footer4,
+.footer5{
+    line-height: 25px;
+    align-items: center;
+}
+.logo-text{
+    display: flex;
+    align-items: center;
+    gap:5px; 
+   
+}
+.list-margin{
+    margin-bottom: 15px;
 }
