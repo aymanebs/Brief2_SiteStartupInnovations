@@ -43,5 +43,64 @@
     line-height: normal;
     margin-top: 46px;
 
+}
+.image-droite{
+    position:absolute;
+    right: 50px;
+   /* top: 40px; */
+    width: 100px;
+    
+}
 
+nav{
+    display:flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+
+   
+
+    
+}
+.logo,
+.nav-list,
+#login,
+#getstarted{
+    font-family: Outfit;
+    font-size: 18px;
+    font-style:normal;
+    line-height: normal;
+}
+.logo{
+    display:flex;
+    align-items: center; 
+    gap:15px;
+    color: black;
+    font-weight: 300;
+
+}
+.nav-list{
+    display:flex;
+    list-style: none;
+    gap:20px;
+    color: #0F2137;
+    font-weight: 300;
+    
+    
+}
+.login{
+    display:flex;
+    list-style: none;
+    gap:10px;
+}
+a{
+    text-decoration: none;
+}
+#login{
+    color:#0F2137;
+    font-weight:500;
+}
+#getstarted{
+    color:#0A8080;
+    font-weight:500;
 }
