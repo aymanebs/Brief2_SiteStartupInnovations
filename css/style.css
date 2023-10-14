@@ -1,6 +1,9 @@
 
 /* font-family: 'Outfit', sans-serif; */
 /*width:80% ??*/
+
+
+
 .main-title{
     color: #02073E;
     text-align: center;
@@ -45,9 +48,11 @@
     
 }
 .firstblock{
-    display: flex;
+    display: flex; 
     justify-content: center;
     flex-direction: column;
+    margin-top: 200px;
+    width:60%;
     
 }
 .firstblock,
@@ -59,7 +64,10 @@
 {
     margin-right: 250px;
     margin-left: 250px; 
-}
+} 
+
+
+
 
 .firstblock span,
 .firstblock h1,
@@ -77,13 +85,11 @@
 }
 .secondblock{
     display: flex;
+    width:60%;
        
     
 }
-.imagebox{ 
-    background-color:;
-    
-}
+
 .secondblock img{
     height:80%;
     position: relative;
@@ -98,15 +104,15 @@
 }
 .thirdblock{
     display:flex;
-    background-color: ;
     justify-content: space-between;
-    background-color:;
+    width:60%;
+   
 }
 .fourthblock{
     display: flex;
-    background-color: ;
     justify-content: space-between;
-    background-color: ;
+    width: 60%;
+    
 }
 
 .thirdblock p,
@@ -121,18 +127,18 @@
 .principles{
     display: flex;
     justify-content: space-between;
-    background-color: ;
+    width:60%;
 }
 .first-principle{
-    background-color:;
+   
     width:20%;
 }
 .second-principle{
-    background-color:;
+   
     width:20%;
 }
 .third-principle{
-    background-color:;
+    
     width:20%;
 }
 .first-principle p,
@@ -156,8 +162,9 @@
     margin-right: 30px;
 }
 #ourprinciples{
-    margin-right: 700;
+    margin-right: 700px;
     margin-left: 700px;
+    padding-top: 20px;
 }
 
 /*-------form----------------------------------------------------------------------------------------------------------------------------*/
@@ -201,7 +208,7 @@
 nav{
     display:flex;
     justify-content: space-around;
-    align-items: center;   
+    align-items: center;
 }
 li{
     list-style: none;
@@ -232,6 +239,7 @@ li{
     
     
 }
+
 .login{
     display:flex;
    
@@ -249,24 +257,12 @@ a{
     font-weight:500;
 }
 /*-----------------------------------------------------------------------------------------------*/
-/*.container{
-    display: flex;
-    gap: 700px;
 
-} */
-.image-droite{
-   /* position:absolute; */
-   display:flex; 
- 
-   /* top: 40px; */
-   /* width: 100px; */
-    
-}
 
 
 .nav-footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 100px;
 }
@@ -288,3 +284,8 @@ a{
 .list-margin{
     margin-bottom: 15px;
 }
+
+
+
+
+
