@@ -50,7 +50,6 @@ a{
 .first-block{
     display: flex;
     flex-direction: column;
-    
     width:75%;
     margin:auto;
     padding-top: 70px;
@@ -62,13 +61,10 @@ h1{
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
-    line-height: 70px;
-   
-   
-    
+    line-height: 70px;   
 }
 p{
-    color: #000;
+    color: #0F2137;
     font-family: Outfit;
     font-size: 20px;
     font-style: normal;
@@ -89,13 +85,103 @@ button{
     color: white;
     position: relative;
     left: 450px;
-    top: 30px;
-
-    
-   
+    top: 30px;  
 }
 .text-box{
     text-align: center;
     width: 75%;
     margin: auto;
+}
+/*second block--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.second-block{
+    display: flex;
+    flex-direction: column;
+    width:75%;
+    margin:auto;
+    gap: 90px;;
+   
+    
+   
+}
+h2{
+    color: #02073E;
+    font-family: Outfit;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;  
+    text-align: center; 
+}
+#build{
+   
+    color: #0F2137; 
+     
+    font-family:Outfit;
+    width:53%;
+    margin: auto;
+    text-align: center;
+}
+.second-block .list1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    
+
+}
+.list1 li{
+   
+   display: flex;
+   align-items: flex-start;
+}
+.list1 li img{
+   
+    padding: 0px;
+}
+.list1 li p{
+    color: #343D48;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    width: 80%;
+}
+blockquote p{
+    font-size: 24px;
+    line-height: 50px;
+   
+    width:80%;
+    margin: auto;
+}
+.grey{
+    color: #7E8896;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    
+    
+}
+/*.second-block-one{
+    background-color: wheat;
+}
+.second-block-two{
+    background-color:aqua ;
+}
+.second-block-three{
+    background-color:brown ;
+}
+.second-block-four{
+    background-color: antiquewhite;
+} */
+
+.list2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.background{
+    background-color: #FFF5ED;
 }
