@@ -98,7 +98,7 @@ button{
     flex-direction: column;
     width:75%;
     margin:auto;
-    gap: 90px;;
+    gap: 90px;
    
     
    
@@ -133,6 +133,7 @@ h2{
    
    display: flex;
    align-items: flex-start;
+   gap: 15px;
 }
 .list1 li img{
    
@@ -184,4 +185,162 @@ blockquote p{
 }
 .background{
     background-color: #FFF5ED;
+}
+/*Third block--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.build{
+    width: 44%;
+    margin: auto;
+    text-align: center;
+}
+.third-block{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    margin:auto;
+    margin-top: 50px;
+}
+
+.s1{
+    background-color: #FFFAF6;
+    border-radius: 5px;
+}
+.s2{
+    background-color: #F7FBFB;
+    border-radius: 5px;
+}
+.s3{
+    background-color: #FBF8F6;
+    border-radius: 5px;
+}
+.s4{
+    background-color: #FFFAF6;
+    border-radius: 5px;
+}
+/*fourth block/fifth block-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.background2{
+    display: flex;
+    flex-direction: column;
+    gap:90px;
+    background-color: #F9FAFC;
+    padding-bottom: 35px;
+}
+.focus{
+    width: 44%;
+    margin: auto;
+    text-align: center;
+    line-height: 35px;
+}
+.fourth-block,
+.fifth-block{
+    display: flex;
+    width:75%;
+    margin:auto;
+    justify-content: space-between;
+
+}
+.fourth-block ul,
+.fifth-block ul{
+    display: flex;
+    gap:15px;
+
+}
+.fourth-block p,
+.fifth-block p{
+    color: #343D48;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.background2 a{
+    color: #3183FF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px;
+}
+/*sixth block---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.flex{
+    display: flex;
+    justify-content: space-around;
+    width:75%;
+    margin:auto;
+}
+.sixth-block{
+    display: flex;
+    width:75%;
+    margin:auto;
+    justify-content: space-between;
+   
+}
+.sixth-block h2{
+    color: #0F2137;
+    font-family: B612;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    text-align: left;
+}
+.sixth-block p{
+    color: #02073E;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+}
+.lists{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    column-gap: 10px;
+}
+.lists img{
+    border-radius: 10px;
+}
+.lists li{
+    display: flex;
+    padding-bottom: 10px;
+    gap: 10px;
+    
+}
+.lists ul{
+    padding-left: 0%;  
+}
+.sixth-block a{
+    color: #3183FF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px;
+    padding-left: 0px;
+}
+/*seventh block----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.seventh-block{
+    display: flex;
+    justify-content: flex-start;
+    width:75%;
+    margin:auto;
+    align-items: center;
+    padding-left: 0%;
+    background-color: white;
+    height: 50%;
+
+}
+.seventh-block .text-box{
+    text-align: left;
+    
+}
+.seventh-block h2{
+    background-color: pink;
+   
+}
+.background3{
+    background-color: #F8F0EA;
 }

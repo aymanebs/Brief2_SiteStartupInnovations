@@ -12,8 +12,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin:90px 360px 60px 360px;
-    
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -177,7 +179,7 @@
     display: block;
     margin:auto;
     outline: none;
-    padding-left:15px;
+    padding-left:35px;
     
 }
 .form-input.textarea{
@@ -204,6 +206,11 @@
 
 }
 
+.flex-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
 /* navigation bar -------------------------------------------------------------------- */
 nav{
     display:flex;
