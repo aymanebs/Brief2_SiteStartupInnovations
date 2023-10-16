@@ -324,23 +324,56 @@ blockquote p{
 /*seventh block----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .seventh-block{
     display: flex;
-    justify-content: flex-start;
-    width:75%;
-    margin:auto;
-    align-items: center;
+    width:60%;
+    margin:auto;    
     padding-left: 0%;
-    background-color: white;
-    height: 50%;
-
+    background-color: red;
+    border:1px solid black;
+    height:100px;
+    margin-top: 50px;
 }
 .seventh-block .text-box{
     text-align: left;
+    background-color: pink;
+    height: 200px;
     
 }
 .seventh-block h2{
-    background-color: pink;
+    
    
 }
 .background3{
     background-color: #F8F0EA;
+    border: #343D48;
+    height: 500px;
+    width: 100%;
+    
+}
+form{
+    height: 200px; 
+}
+/*footer-----------------------------------------------------------------------------------------------*/
+.nav-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.footer1,
+.footer2,
+.footer3,
+.footer4,
+.footer5{
+    line-height: 25px;
+    align-items: center;
+}
+.logo-text{
+    display: flex;
+    align-items: center;
+    gap:5px; 
+   
+}
+.list-margin{
+    margin-bottom: 15px;
 }
