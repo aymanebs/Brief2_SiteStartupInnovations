@@ -1,0 +1,48 @@
+
+/*-----------------------------------------------------------------------------------------------*/
+section{
+    background-color:#f3f1ef;
+}
+
+.split{
+    display: flex;
+    
+    align-items: center;
+    background-color: pink;
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem 0;
+
+}
+h1{
+    color: #02073E;
+    font-family: Outfit;
+   /* justify-content: space-between;
+    align-items: center; */
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+}
+h3{
+    color: #02073E;
+    font-family: Outfit;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+}
+p{
+    color: #000;
+    font-family: Outfit;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+}
+.mobile-nav a.icon{
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+    
+

@@ -1,6 +1,11 @@
-
+.image-box{
+    width:35%;
+}
+.text-box{
+   width: 65%;;
+}
 .advertise-main-title,
-.secondblock h2,
+.second-block h2,
 #ourteam,
 #ourprinciples{
     color: #02073E;
@@ -10,7 +15,7 @@
     font-weight: 700;
     line-height: normal;
 }
-.firstblock span{
+.first-block span{
     color:#0A8080;
     font-family: Outfit;
     font-size: 24px;
@@ -18,8 +23,8 @@
     font-weight: 500;
     line-height: normal;
 }
-.firstblock p,
-.secondblock p{
+.first-block p,
+.second-block p{
     color: #000;
     font-family: Outfit;
     font-size: 32px;
@@ -29,31 +34,28 @@
    
     
 }
-.firstblock{
+.first-block{
 
     padding-top: 100px; 
 }
-.firstblock,
-.secondblock,
-.thirdblock,
-.fourthblock,
+.first-block,
+.second-block,
+.third-block,
 #ourteam,
 .principles,
 #ourprinciples
 {
-   
     width: 65%;
     margin:auto;
-    /* margin-right: 250px;
-    margin-left: 250px; */
+    
 } 
+.second-block{
+    background-color: beige;
+}
 
-
-
-
-.firstblock span,
-.firstblock h1,
-.firstblock p
+.first-block span,
+.first-block h1,
+.first-block p
 {
     display: flex;
     justify-content: center;
@@ -65,42 +67,37 @@
 .yellow-background{
     background-color: #FFF5ED;
 }
-.secondblock{
+.second-block{
     display: flex;
-    
     align-items: flex-end;
-    gap:10px;   
+    gap:10px;
+    
+       
 }
 
-/*.secondblock img{
-    height:80%;
-    position: relative;
-    left: 10px;
-    top: 30px;
-    
-}*/
-.secondblock img,
-.thirdblock img,
+.second-block img,
+.third-block img,
 .fourthblock img{
     border-radius: 10px;
 }
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
 #ourteam{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.thirdblock{
+.third-block{
     display:flex;
-    justify-content: space-between;
-  
+    flex-flow: row wrap;  
 }
-.fourthblock{
-    display: flex;
-    justify-content: space-between;
+
+.card{
+    flex-basis: 33.33%;
+    background-color: aqua;
     
 }
 
-.thirdblock p,
-.fourthblock p{
+.third-block p
+/*.fourthblock p*/{
     color: #000;
     font-family: Outfit;
     font-size: 32px;
@@ -108,23 +105,27 @@
     font-weight: 500;
     line-height: normal;
 }
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
 .principles{
     display: flex;
-    justify-content: space-between;
+ /*   justify-content: space-between; */
     padding-bottom: 50px;
-    
+    flex-wrap: wrap; 
+    gap: 6rem;
 }
+
 .first-principle{
-   
-    width:20%;
+    flex-basis: 25%;
+  /*  width:20%; */
 }
 .second-principle{
-   
-    width:20%;
+    flex-basis: 25%;
+ /*   width:20%; */
 }
 .third-principle{
-    
-    width:20%;
+    flex-basis: 25%;
+  /*  width:20%; */
 }
 .first-principle p,
 .second-principle p,
@@ -147,93 +148,37 @@
     margin-right: 30px;
 }
 #ourprinciples{
-   /* margin-right: 700px;
-    margin-left: 700px; */
+   
     padding-top: 30px;
     padding-bottom:30px;
     text-align: center;
 }
 
-
-
-
-/* navigation bar -------------------------------------------------------------------- */
-nav{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-}
-li{
-    list-style: none;
-}
-.logo,
-.nav-list,
-#login,
-#getstarted{
-    font-family: Outfit;
-    font-size: 18px;
-    font-style:normal;
-    line-height: normal;
-}
-.logo{
-    display:flex;
-    align-items: center; 
-    gap:15px;
-    color: black;
-    font-weight: 300;
-
-}
-.nav-list{
-    display:flex;
-    list-style: none;
-    gap:20px;
-    color: #0F2137;
-    font-weight: 300;
-    
-    
-}
-
-.login{
-    display:flex;
+@media  (max-width:1000px) {
+    .second-block{
+       flex-wrap: wrap;
+        /*flex-direction: column; */
+       /*align-content: flex-start;  */
+       
+    }
+    .second-block .image-box{
+        margin: 0 auto;
+    }
    
-    gap:10px;
-}
-a{
-    text-decoration: none;
-}
-#login{
-    color:#0F2137;
-    font-weight:500;
-}
-#getstarted{
-    color:#0A8080;
-    font-weight:500;
-}
-/*footer-----------------------------------------------------------------------------------------------*/
-.nav-footer{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 100px;
-}
+    .second-block .text-box{
+        text-align: center;
+        background-color:pink;
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+    }
+    .first-block{
+        text-align: center;
 
-.footer1,
-.footer2,
-.footer3,
-.footer4,
-.footer5{
-    line-height: 25px;
-    align-items: center;
-}
-.logo-text{
-    display: flex;
-    align-items: center;
-    gap:5px; 
-   
-}
-.list-margin{
-    margin-bottom: 15px;
-}
+    }
+    }
+ 
+
 
 
 
