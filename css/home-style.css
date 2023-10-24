@@ -253,6 +253,7 @@ blockquote p{
 }
 .fourth-block ul .image{
 width: 20%;
+
 }
 .fourth-block ul .text{
 width: 70%;
@@ -702,6 +703,7 @@ form .submit{
     .second-block-four{
         display: none;
     }
+}
  /*   
 }
 .third-block{
