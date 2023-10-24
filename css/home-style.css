@@ -64,7 +64,7 @@ button{
 .first-block .image-box{
     margin: 0 auto;
     width: 100%;
-    background-color: olivedr;
+    
 }
 /*second block--------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .second-block{
@@ -249,7 +249,7 @@ blockquote p{
     display: flex;
     gap:1rem;
     width:30%;
-    background-color: #DB4A87;
+    
 }
 .fourth-block ul .image{
 width: 20%;
@@ -284,8 +284,8 @@ width: 70%;
 .sixth-block{
     display: flex;
     width:75%;
-    margin:auto;
-    justify-content: space-between;
+    margin:0 auto;
+   
    
 }
 .sixth-block h2{
@@ -506,11 +506,11 @@ width: 70%;
     letter-spacing: -0.5px;
 }
 .subscribe .text-box p{
-    background-color: be;
+    
     width:
 }
 .subscribe form{
-    background-color: pk;
+    
     display: block;
     
     width: 40%;
@@ -597,17 +597,22 @@ form .submit{
 
 
 
-@media screen and (max-width:820px) {
+@media screen and (max-width:860px) {
     .first-block,
-    .second-block{
+    .second-block,
+    .sixth-block,
+    .subscribe{
         width:100%;
     }
-    
-}
-@media screen  and (max-width:480px) {
+    .background2{
+        display: none;
+    }
     .second-block .list1{
         flex-direction:column;
+        margin: 0 auto;
+        align-items: center;
     }
+    
     .list1 li{
         display: block;
     }
@@ -623,6 +628,76 @@ form .submit{
         margin: 0 auto;
         display: block;
     }
+    .sixth-block{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    .sixth-block .text-box{
+        margin: 0 auto;
+        text-align: center;
+
+    }
+    .sixth-block .text-box h2{
+
+        text-align: center;
+    }
+    .sixth-block .text-box p{
+
+        text-align: center;
+    }
+    .sixth-block .image-box{
+        margin: 0 auto;
+        text-align: center;
+
+    }
+    .flex{
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .sixth-block .lists{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .lists ul{
+        padding-left: 30%;  
+    }
+    .seventh-block{
+        display: none;
+    }
+    .background3 img{
+        display: none;
+    }
+    .subscribe{
+        display: block;
+        margin: 0 auto;
+    }
+    .subscribe .text-box{
+        margin: 0 auto;
+    }
+    .subscribe .text-box p{
+        display: none;
+    }
+    .subscribe form{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .subscribe form input{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .subscribe form input label{
+        text-align: center;
+        
+    }
+}
+@media screen  and (max-width:480px) {
+  
     .second-block-three,
     .second-block-four{
         display: none;

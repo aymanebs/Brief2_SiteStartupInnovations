@@ -55,6 +55,14 @@ li{
     color: #0F2137;
     font-weight: 300;   
 }
+.nav-list li a{
+    color: #02073E;
+font-family: outfit;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px;
+}
 .login{
     display:flex;
     gap:10px;
@@ -77,6 +85,9 @@ a{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 100px;
+}
+.nav-footer li{
+    font-size: small;
 }
 
 .footer1,
