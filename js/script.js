@@ -1,9 +1,10 @@
-function myFunction() {
-  var x = document.getElementsByClassName("links");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  }
-   else {
-    x.style.display = "block";
-  }
+//---------------burger menu ----------------------------------------//
+const burgerButton = document.querySelector(".nav-toggler");
+const navigation =document.querySelector(".links")
+
+burgerButton.addEventListener("click",toggleNav)
+
+function toggleNav(){
+    burgerButton.classList.toggle("active")
+    navigation.classList.toggle("active")
 }
