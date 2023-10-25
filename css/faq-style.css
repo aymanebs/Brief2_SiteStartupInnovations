@@ -1,18 +1,37 @@
 
 /*-----------------------------------------------------------------------------------------------*/
-section{
+body{
     background-color:#f3f1ef;
+   
+    
+}
+section{
+    height:30%; 
+    padding: 2rem 0;
+}
+.section1{
+   
+    padding-top: 6rem;
+    margin: 0 auto;
+    width: 70%;
 }
 
 .split{
     display: flex;
-    
     align-items: center;
-    background-color: pink;
-    width: 80%;
-    margin: 0 auto;
-    padding: 3rem 0;
-
+    margin: auto;
+    width: 100%;
+    gap: 1rem;
+    
+    
+}
+.split .text{
+    width:40%;
+   
+}
+.split .image{
+    width:60%;
+ 
 }
 h1{
     color: #02073E;
@@ -37,12 +56,94 @@ p{
     font-style: normal;
     font-weight: 300;
 }
-.mobile-nav a.icon{
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-    
+/* accordion -----------------------*/
+#accordion{
+    margin: 100px auto;
+    width: 600px;
 
+}
+#accordion li{
+    list-style: none;
+    width:100%;
+    margin-bottom: 10px;
+    background:white;
+    padding: 10px;
+    border-radius: 4px;
+}
+#accordion li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+#accordion li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #333;
+}
+#accordion  label + input[type="radio"]{
+    display: none;
+}
+#accordion .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#accordion  label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+}
+
+/*----------form-----------------------------*/
+section h2{
+    color: #02073E;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    margin: auto;
+}
+form{
+   margin: 0 auto;  
+}
+.form-input{
+    width: 60vh;
+    height: 40px;
+    border-width: 1px;
+    border-radius: 10px;
+    background: white;
+    display: block;
+    margin:auto;
+    outline: none;
+    box-sizing: border-box;
+    padding-left:20px;
+}
+.form-input.textarea{
+    height:30vh;
+    resize: none;
+    padding-left:20px;
+}
+.submit-button{
+    
+    height: 5vh;
+    display:block;
+    margin:auto;
+    border-radius: 10px;
+    background: #0A8080;
+    border-width: 1px;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 46px;
+    min-width: 20%;
+}

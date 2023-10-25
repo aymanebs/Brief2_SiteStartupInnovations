@@ -14,13 +14,37 @@
 </head>
 <body>
   <header>
+       <!--Mobile nav------------------------------------------------------------------------>
+  <div class="mobile-nav">
+    <nav>
+        
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="advertise.html">Advertise</a></li>
+          <li><a href="faq.html">Supports</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="mobile-logo">
+            <img src="images/logo-mobile.png" alt="logo" class="logo"style="width:35px;height:34px;">
+            <div class="logo-text">Innovations</div>
+          
+    </nav>
+        <button type="button"class="nav-toggler">
+            <span class="line l1"></span>
+            <span class="line l2"></span>
+            <span class="line l3"></span>
+        </button>
+       
+    </div>
+
+<!------------------------------------------------------------------------------------->
  
     <nav>
       <div class="logo"><img src="images/logo.png" alt="logo" class="logo"style="width:15px;height:20px;">Innovations
         <ul class="nav-list">
           <li><a href="index.html">Home</a></li>
           <li><a href="advertise.html">Advertise</a></li>
-          <li><a href="supports.html">Supports</a></li>
+          <li><a href="faq.html">Supports</a></li>
           <li><a href="about.html">About</a></li>
         </ul>
       </div> 
@@ -29,53 +53,102 @@
           <li><a id="getstarted" href="#">Get started</a></li>
         </ul>
     </nav>
+</header>
   <main>
-     <section>
+     <section class="section1">
         <div class="split">
             <div class="text">
                 <h1>FAQ</h1>
                 <p>Have questions? Here you'll find the answers most valued by our partners, along with access to step-by-step instructions and support.</p>
             </div>
             <div class="image">
-                <img class="image" src="./images/faq-illustration.webp" alt="illustration FAQ">
+                <img class="image" src="./images/faq-illustration.webp" alt="illustration FAQ"style="width:538px;height:404px;">
             </div>
         </div>
-     </section>
-     <section>
-        <div class="split">
-        <div> </div>
-        <div>
-            <hr>
-            <div>
-                <h3>How will I manage my business with you</h3>
-                <p>Our easy-to-use owner dashboard will be the primary location for managing your reservations, updating rates and keeping your listing up to date. Some partners choose to use a software provider to link our systems. They still log in to the owner dashboard to leverage our more advanced tools like MarketMaker and Boost.</p>
-            </div>
-            <div>
-                <h3>What if I have more questions?</h3>
-                <p>If you haven't found what you are looking for, visit our Help Center for step-by-step guidance on how to use our products.</p>
-            </div>
-            <div>
-                <h3>What is an integrated property manager?</h3>
-                <P>Integrated property managers use third-party or proprietary software that they have connected to our marketplace to manage their listings. Integrated property managers can manage thier listings directly from their software by an integration feed that automatically updates reservations, amenities, photos and more.</P>
-            </div>
-            <div>
-                <h3>How I can support service animals?</h3>
-                <p>Be accommodating to individuals with special needs and their service animals.Do not request documentation for a service animal. However, you may ask whether the service animal is required because of a disability or ask about specific functions the animal performs. </p>
-            </div>
-            <div>
-                <h3>What's the Customer Advisory Board?</h3>
-                <p>The Customer Advisory Board (CAB) is an exclusive group of trusted advisors made up of partners like you. CAB members meet over video call monthly to offer input and expertise that help shape the future of our products and services. Currently, we have CABs in the US and EU markets.</p>
-            </div>
-            <div>
-                <h3>What does it mean to be a part of our booking platform?</h3>
-                <p>Our mission is to bring the world within reach through our partners. Our goal is to provide our partners with the most bookings possible and to do so; we need to provide travelers with a simple and secure online booking experience.</p>
-            </div>
+   
+<ul id="accordion">
+    <li>
+        <label for="first">How will I manage my business with you?<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="first"  checked>
+        <div class="content">
+            <p>Our easy-to-use owner dashboard will be the primary location for managing your reservations, updating rates and keeping your listing up to date. Some partners choose to use a software provider to link our systems. They still log in to the owner dashboard to leverage our more advanced tools like MarketMaker and Boost.</p>
         </div>
-    </div>
-     </section>
-
-
-
-
+    </li>
+    <li>
+        <label for="second">What if I have more questions?<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="second"  >
+        <div class="content">
+            <p>If you haven't found what you are looking for, visit our Help Center for step-by-step guidance on how to use our products.</p>
+        </div>
+    </li>
+    <li>
+        <label for="third">What is an integrated property manager?<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="third"  >
+        <div class="content">
+            <P>Integrated property managers use third-party or proprietary software that they have connected to our marketplace to manage their listings. Integrated property managers can manage thier listings directly from their software by an integration feed that automatically updates reservations, amenities, photos and more.</P>
+        </div>
+        </li>
+    <li>
+        <label for="fourth">What does it mean to be a part of our booking platform?<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="fourth"  >
+        <div class="content">
+            Our mission is to bring the world within reach through our partners. Our goal is to provide our partners with the most bookings possible and to do so; we need to provide travelers with a simple and secure online booking experience.
+        </div>
+    </li>
+</ul>
+</section>
+<section>
+    <h2 class="title">Send us a message</h2> <br> <br>
+    <form>
+        <input type="text" class="form-input" placeholder="Full name" name="full name"><br>
+        <input type="email" class="form-input"placeholder="E-mail" name="email"><br>
+        <input type="tel" class="form-input" placeholder="Phone" name="phone"><br>
+        <textarea name="comment"class="form-input textarea" placeholder="Your message" rows="10" cols="20"></textarea>
+        <input type="submit" class="submit-button" value="Send"> 
+    </form>
+</section>
 
   </main>  
+  <footer>
+    <div class="nav-footer">
+     <ul class="footer1">
+       <li class="logo-text" class="list-margin"><img src="images/logo.png"  alt="logo"style="width:15px;height:20px;">Innovations</li>
+       <li>Terms of use | Privacy</li>
+       <li>Copyright by 2019 Aymane, Inc</li>
+     </ul>
+     <ul class="footer2">
+       <li>About Us</li>
+       <li>Support Center</li>
+       <li>Customer Support</li>
+       <li>About Us</li>
+       <li>Copyright</li>
+     </ul>
+     <ul class="footer3">
+       <li>Our Information</li>
+       <li>Return Policy</li>
+       <li>Privacy Policy</li>
+       <li>Terms & Conditions</li>
+       <li>Site Map</li>
+     </ul>
+     <ul class="footer4">
+       <li>My Account</li>
+       <li>Press inquiries</li>
+       <li>Social media</li>
+       <li>directories</li>
+       <li>Images & B-roll</li>
+     </ul>
+     <ul class="footer5">
+       <li>Connect</li>
+       <li class="logo-text"><img src="images/logo-facebook.png"  alt="logo"style="width:20px;height:21px;">Facebook</li>
+       <li class="logo-text"><img src="images/logo-twitter.png"  alt="logo"style="width:20px;height:18px;">Twitter</li>
+       <li class="logo-text"><img src="images/logo-github.png"  alt="logo"style="width:20px;height:21px;">Github</li>
+       <li class="logo-text"><img src="images/logo-dribble.png"  alt="logo"style="width:20px;height:21px;">Dribble</li>
+     </ul>
+    </div> 
+   </footer>
+     <!--Js-->
+     <script src="js/script.js"></script>
+
+</body>
+</html>
+    

@@ -34,10 +34,7 @@
    
     
 }
-.first-block{
 
-    padding-top: 100px; 
-}
 .first-block,
 .second-block,
 .third-block,
@@ -47,11 +44,11 @@
 {
     width: 65%;
     margin:auto;
+    padding:6rem 0;
+
     
 } 
-.second-block{
-    background-color: beige;
-}
+
 
 .first-block span,
 .first-block h1,
@@ -81,10 +78,7 @@
     border-radius: 10px;
 }
 /*-------------------------------------------------------------------------------------------------------------------------------------------*/
-#ourteam{
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
+
 .third-block{
     display:flex;
     flex-flow: row wrap;  
@@ -92,7 +86,7 @@
 
 .card{
     flex-basis: 33.33%;
-    background-color: aqua;
+ 
     
 }
 
@@ -110,7 +104,7 @@
 .principles{
     display: flex;
  /*   justify-content: space-between; */
-    padding-bottom: 50px;
+   
     flex-wrap: wrap; 
     gap: 6rem;
 }
@@ -149,8 +143,7 @@
 }
 #ourprinciples{
    
-    padding-top: 30px;
-    padding-bottom:30px;
+    
     text-align: center;
 }
 
@@ -167,7 +160,6 @@
    
     .second-block .text-box{
         text-align: center;
-        background-color:pink;
         margin: 0 auto;
         display: block;
         width: 100%;
