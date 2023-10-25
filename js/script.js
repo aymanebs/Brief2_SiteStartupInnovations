@@ -8,3 +8,4 @@ function toggleNav(){
     burgerButton.classList.toggle("active")
     navigation.classList.toggle("active")
 }
+

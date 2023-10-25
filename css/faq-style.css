@@ -1,6 +1,6 @@
 
 /*-----------------------------------------------------------------------------------------------*/
-body{
+main{
     background-color:#f3f1ef;
    
     
@@ -110,7 +110,20 @@ section h2{
     margin: auto;
 }
 form{
-   margin: 0 auto;  
+   margin: 0 auto;
+   display: flex; 
+   flex-direction: column;
+   gap: 1rem; 
+
+}
+form label{
+    color: #7E8896;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    margin: 0 auto;
+    
 }
 .form-input{
     width: 60vh;
