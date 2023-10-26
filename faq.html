@@ -40,7 +40,8 @@
   
   </div>
   <!------------------------------------------------------------------------------------->
-    <nav class="screen-nav">
+  <header>
+  <nav class="screen-nav">
       <div class="logo"><img src="images/logo.png" alt="logo" class="logo"style="width:15px;height:20px;">Innovations
         <ul class="nav-list">
           <li><a href="index.html">Home</a></li>
@@ -58,7 +59,8 @@
   <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
   <main>
-     <section class="section1">
+    <div class="background">
+     <div class="first-block">
         <div class="split">
             <div class="text">
                 <h1>FAQ</h1>
@@ -68,7 +70,8 @@
                 <img class="image" src="./images/faq-illustration.webp" alt="illustration FAQ"style="width:538px;height:404px;">
             </div>
         </div>
-   
+      </div> 
+      <div class="second-block">
 <ul id="accordion">
     <li>
         <label for="first">How will I manage my business with you?<span>&#x3e;</span></label>
@@ -95,15 +98,15 @@
         <label for="fourth">What does it mean to be a part of our booking platform?<span>&#x3e;</span></label>
         <input type="radio" name="accordion" id="fourth"  >
         <div class="content">
-            Our mission is to bring the world within reach through our partners. Our goal is to provide our partners with the most bookings possible and to do so; we need to provide travelers with a simple and secure online booking experience.
+            <p>Our mission is to bring the world within reach through our partners. Our goal is to provide our partners with the most bookings possible and to do so; we need to provide travelers with a simple and secure online booking experience.</p>
         </div>
     </li>
-</ul>
-</section>
-<section>
+    </ul>
+  </div> 
+    <div class="third-block">
     
-    <h2 class="title">Send us a message</h2> <br> <br>
     <form> 
+        <h2 class="title">Send us a message</h2> 
         <label >All fields are required</label>
         <input type="text" class="form-input" placeholder="*Full name" name="full name" required>
         <input type="email" class="form-input"placeholder="*E-mail" name="email" required>
@@ -111,9 +114,12 @@
         <textarea name="comment"class="form-input textarea" placeholder="*Your message" rows="10" cols="20" required></textarea>
         <input type="submit" class="submit-button" value="Send"> 
     </form>
-</section>
-
+  </div>
+  </div>
   </main>  
+  
+  
+<!--------------------------------------------------------------------------------------------------------------------------------------------------->  
   <footer>
     <div class="nav-footer">
      <ul class="footer1">
@@ -151,6 +157,27 @@
      </ul>
     </div> 
    </footer>
+   <footer>
+    <div class="mobile-footer">
+      <hr>
+      <div class="footer-logos">
+        <ul>
+          <li><img src="images/footer-logo1.png" alt="logo"style="width: 40px;height:40px;"></li>
+          <li><img src="images/footer-logo2.jpg" alt="logo"style="width: 40px;height:40px;"></li>
+          <li><img src="images/footer-logo3.jpg" alt="logo"style="width: 40px;height:40px;"></li>
+          <li><img src="images/footer-logo4.png" alt="logo"style="width: 40px;height:40px;"></li>
+        </ul>
+        </div>
+        <div class="footer-text">
+          <p>Terms of use | Privacy</p>
+          <p class="grey">Copyright by 2019 Aymane, Inc</p>
+        </div>
+        
+      </div>
+
+    </div>
+
+  </footer>
   <!--Js-->
      <script src="js/script.js"></script>
 

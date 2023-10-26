@@ -1,15 +1,22 @@
 
 /*-----------------------------------------------------------------------------------------------*/
-main{
+.background{
     background-color:#f3f1ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
    
     
 }
-section{
+.first-block,
+.second-block,
+.third-block{
     height:30%; 
     padding: 2rem 0;
+   
 }
-.section1{
+.first-block{
    
     padding-top: 6rem;
     margin: 0 auto;
@@ -18,6 +25,7 @@ section{
 
 .split{
     display: flex;
+    
     align-items: center;
     margin: auto;
     width: 100%;
@@ -58,8 +66,9 @@ p{
 }
 /* accordion -----------------------*/
 #accordion{
-    margin: 100px auto;
-    width: 600px;
+  
+    width: 70%;
+    margin: 0 auto;
 
 }
 #accordion li{
@@ -76,7 +85,13 @@ p{
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
+    color: #02073E;
+    font-family: Outfit;
+    font-size: 1.5rem;
 
+} 
+#accordion .content p{
+    font-family: Outfit;
 }
 #accordion li label span{
     transform: rotate(90deg);
@@ -87,7 +102,7 @@ p{
     display: none;
 }
 #accordion .content{
-    padding: 0 10px;
+    padding: 0 0.7rem;
     line-height: 26px;
     max-height: 0;
     overflow: hidden;
@@ -106,13 +121,13 @@ section h2{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    
-    margin: auto;
+    margin: 0 auto;
 }
 form{
    margin: 0 auto;
    display: flex; 
    flex-direction: column;
+   align-items: center;
    gap: 1rem; 
 
 }
@@ -127,7 +142,7 @@ form label{
 }
 .form-input{
     width: 60vh;
-    height: 40px;
+    height: 4vh;
     border-width: 1px;
     border-radius: 10px;
     background: white;
@@ -140,7 +155,7 @@ form label{
 .form-input.textarea{
     height:30vh;
     resize: none;
-    padding-left:20px;
+    padding-left:2rem;
 }
 .submit-button{
     
@@ -159,4 +174,43 @@ form label{
     line-height: normal;
     margin-top: 46px;
     min-width: 20%;
+}
+
+@media(max-width:865px) {
+   
+    .split{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .split .text{
+        width:100%;
+        text-align: center;
+       
+    }
+    .split .image{
+        width:100%;
+     
+    }
+    #accordion{
+         width: 100%;
+         margin: 0;
+    }
+   
+    .form-input{
+        width: 25vh;
+        padding-left:0px;
+    }
+   
+
+}
+
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }

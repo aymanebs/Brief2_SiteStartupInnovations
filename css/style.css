@@ -141,7 +141,7 @@ a{
     align-items: center;
     z-index:10;
     top: 15px;
-    right:30px;
+    right:10%;
     height: 20px;
     width: 25px;
     border: none;
@@ -235,12 +235,12 @@ line-height: normal;
 }
 
 /*--------------------------------------------------------------------*/
-@media screen and (max-width:845px) {
+@media(max-width:845px) {
     .nav-list{
       gap:10px;
   }
 }
-@media screen and (max-width:655px) {
+@media(max-width:655px) {
 .screen-nav{
     display: none;
 } 
@@ -250,7 +250,7 @@ line-height: normal;
 
 } 
 
-@media screen and (min-width:655px) {
+@media(min-width:655px) {
     .mobile-nav{
         display: none;
     } 
