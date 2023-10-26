@@ -78,6 +78,9 @@ a{
     color:#0A8080;
     font-weight:500;
 }
+.screen-nav .nav-list a:hover{
+    color: grey;
+}
 /*footer-----------------------------------------------------------------------------------------------*/
 .nav-footer{
     display: flex;
@@ -196,6 +199,9 @@ a{
 .links.active{
     display: flex;
 }
+.mobile-nav a:hover{
+    color: blue;
+}
 /*mobile Footer---------------------------------------------------------------------*/
 .mobile-footer{
     display: flex;
@@ -203,6 +209,7 @@ a{
     height: 10vh;
     justify-content: space-around;
     background-color: #F0F0F0;
+    padding-top: 0.5rem;
 
 }
 .footer-logos ul{

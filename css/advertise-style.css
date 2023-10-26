@@ -132,12 +132,13 @@ h3{
 }
 
 .sixth-block p {
-    color: #000;
+    color: white;
     font-family: Outfit;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-top: 1rem;
 }
 
 .sixth-block {
