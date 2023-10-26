@@ -172,6 +172,11 @@ h3{
   border-radius:  0 10px 10px 0;
   width: 30%;
 }
+.cars h3,
+.cards p{
+    width: 100%;
+}
+ 
 /*--------Community--------------------------------------------------------------------------------------------------------------------------------*/
 .community{
     display: flex;
@@ -215,75 +220,51 @@ font-weight: 400;
 line-height: 40px;
 }
 .community h4{
-    color: #c0df34;
-    font-family: DM Sans;
+color: #c0df34;
+font-family: DM Sans;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
-line-height: 40px;
+
 }
+.community h2{
+    color: #c0df34;
+    font-family: DM Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    
+}
+
 .box2 p,
 .box3 li{
-    color: white;
+color: white;
 font-family: DM Sans;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 40px;
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* MEDIA QUERY */
-@media only screen and (max-width: 600px) {
-  p {
-    margin-bottom: 20px;
-  }
-
-  body {
-    height: auto;
-  }
-
-  .sixth-block {
-    flex-direction: column;
-    margin: 16% 0;
-    padding: 8%;
-  }
-
-  .cards {
-    padding: 38px 44px;
-  }
-
-  .card1 {
-    border-radius:  10px 10px 0 0;
-  }
-  
-  .card3 {
-    border-radius:  0 0 10px 10px;
-  }
-  
+.community p,
+.community h3,
+.community h4,
+.community span{
+    padding-left: 2rem;
 }
-
-
-
-
+.community span{
+    color: white;
+font-family: DM Sans;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+}
+.community h3{
+    color: white;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
 
 
 
@@ -291,7 +272,9 @@ line-height: 40px;
     .first-block,
     .third-block,
     .fourth-block,
-    .fifth-block{
+    .fifth-block,
+    .sixth-block,
+    .community{
         display: block;
         width: 100%;
         margin: 0 auto;
@@ -326,10 +309,103 @@ line-height: 40px;
         padding-left: 0%;
         margin: 0 auto;
     }
+    .cards{
+        padding: 0;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .community{
+        text-align: center;
+        align-items: center;
+    }
+   }
+   
+   @media(max-width:700px){
+    .cards{
+        width: 100%;
+        text-align: center;
+        padding: 0 1.5rem;
+    }
+   
+    .community h2,
+    .community h4{
+        text-align: center;
+    }
+    #center{
+        padding-left: 0;
+    }
+    .community p,
+    .community h3,
+    .community h4,
+    .community span{
+    padding-left: 0rem;
+    }
+   } 
+   
+   @media(max-width:400px){
+    .container2{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .box2,
+    .box3{
+    width: 100%;
 
 }
-/* * {
+   }
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY 
+@media only screen and (max-width: 600px) {
+  p {
+    margin-bottom: 20px;
+  }
+
+  body {
+    height: auto;
+  }
+
+  .sixth-block {
+    flex-direction: column;
+    margin: 16% 0;
+    padding: 8%;
+  }
+
+  .cards {
+    padding: 38px 44px;
+  }
+
+  .card1 {
+    border-radius:  10px 10px 0 0;
+  }
+  
+  .card3 {
+    border-radius:  0 0 10px 10px;
+  }
+  
+} */
+
+
+
+
+
+
+
+
+
+
+ /* * {
     background: #000 !important;
     color: #0f0 !important;
     outline: solid #f00 1px !important;
-  } */
+  }  */
